@@ -1,8 +1,4 @@
 class Game
-
-# 1) Po co ten result na końcu w sensie jak to działa xd
-# 2) Co zrobić żeby nie trzeba było przekazywać (symbol)
-# 3) Czemu input musi być stringiem
   attr_accessor :board, :input
   def initialize
     @board = (0...9).map {' '}
